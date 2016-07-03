@@ -1,4 +1,3 @@
-//<?php
 /**
  * HtmlMinModxEvo
  * HtmlMinModxEvo plugin for MODX Evo
