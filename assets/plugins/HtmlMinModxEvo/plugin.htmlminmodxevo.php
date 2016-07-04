@@ -13,7 +13,7 @@
  * @internal    @properties 
  * @internal    @events OnWebPagePrerender 
  * @internal    @modx_category Content 
- * @internal    @legacy_names HtmlInLine
+ * @internal    @legacy_names HtmlMinModxEvo
  * @internal    @installset base
  * @author ProjectSoft (projectsoft@ioweb.ru)
 */
