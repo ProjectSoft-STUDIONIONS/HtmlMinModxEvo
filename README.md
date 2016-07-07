@@ -7,7 +7,7 @@
 Плюс бонус - удаление комментариев в html коде, но при этом оставляем комментарии для браузера IE
 
 
-:en:
+:gb:
 
 Port HtmlInLine plugin https://github.com/MODXim/MODX.plugins/tree/master/HtmlInLine
 
