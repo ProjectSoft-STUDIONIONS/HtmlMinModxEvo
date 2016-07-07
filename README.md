@@ -1,5 +1,5 @@
-:ru:
 # HtmlMinModxEvo
+:ru:
 Порт плагина HtmlInLine https://github.com/MODXim/MODX.plugins/tree/master/HtmlInLine
 
 Добавлена более удобная регулярка удаления лишних пробелов, переносов табов.
