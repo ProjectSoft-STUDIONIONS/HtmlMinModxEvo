@@ -9,16 +9,16 @@
  * Плюс бонус - удаление комментариев в html коде, но при этом оставляем комментарии для браузера IE
  *
  * @category    plugin 
- * @version 1.0
+ * @version 1.2
  * @license     http://www.gnu.org/copyleft/gpl.html GNU Public License (GPL) 
  * @internal    @properties 
  * @internal    @events OnWebPagePrerender 
  * @internal    @modx_category Content 
  * @internal    @legacy_names HtmlMinModxEvo
  * @internal    @installset base
- * @author ProjectSoft (projectsoft@ioweb.ru)
+ * @author ProjectSoft (projectsoft2009@yandex.ru)
 */
-//author ProjectSoft (projectsoft@ioweb.ru)
+//author ProjectSoft (projectsoft2009@yandex.ru)
 if(!defined('MODX_BASE_PATH')) die('What are you doing? Get out of here!');
 global $modx;
 if (!function_exists('replace_project_html')) {
