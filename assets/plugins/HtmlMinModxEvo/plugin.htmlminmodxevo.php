@@ -34,7 +34,7 @@ switch ($e->name) {
 			$str = $modx->documentOutput;
 			$re = '/((?:content=)|(?:"description":\s+))(?:"|\')([A-я\S\s\d\D\X\W\w]+)(?:"|\')/mUi';
 			$str = preg_replace_callback($re,"replace_project_html",$str);
-			$str = preg_replace("/(\xD6\xD6\xD6\xD6)/", "\n", preg_replace('|\s+|', ' ', preg_replace('|(\s+)?\n(\s+)?|', '', preg_replace('|<!(--)?(\s+)?(?!\[).*-->|', '', $str))));
+			$str = preg_replace("/(\xD6\xD6\xD6\xD6)/", "\n", preg_replace('/\s+/u', ' ', preg_replace('|(\s+)?\n(\s+)?|', '', preg_replace('|<!(--)?(\s+)?(?!\[).*-->|', '', $str))));
 			
            	$modx->documentOutput = $str;
         }
