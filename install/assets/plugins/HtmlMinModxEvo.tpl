@@ -9,7 +9,7 @@
  * Плюс бонус - удаление комментариев в html коде, но при этом оставляем комментарии для браузера IE
  *
  * @category    plugin 
- * @version 1.2
+ * @version 1.3
  * @license     http://www.gnu.org/copyleft/gpl.html GNU Public License (GPL) 
  * @internal    @properties 
  * @internal    @events OnWebPagePrerender 
